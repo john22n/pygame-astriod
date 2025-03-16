@@ -1,1 +1,1 @@
-# pygame-astoid
+# pygame-astroid
