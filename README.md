@@ -1,1 +1,1 @@
-# pygame-astroid
+# pygame-asteroid
