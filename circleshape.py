@@ -20,7 +20,6 @@ class CircleShape(pygame.sprite.Sprite):
         distance_between_circles = pygame.math.Vector2.distance_to(circle_shape.position, self.position)
         distance_between_radius = self.radius + circle_shape.radius
 
-        print(distance_between_circles, distance_between_radius) 
 
         if distance_between_circles < distance_between_radius:
             return True

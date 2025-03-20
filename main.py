@@ -44,7 +44,7 @@ def main():
             for shot in shots:
                 if shot.collision(entity):
                     shot.kill()
-                    entity.kill()
+                    entity.split()
 
         for entity in drawable:
             entity.draw(screen)
